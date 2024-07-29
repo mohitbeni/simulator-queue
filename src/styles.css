@@ -1,0 +1,19 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.lines {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.line {
+  width: 40px;
+  border: 1px dotted black;
+}
